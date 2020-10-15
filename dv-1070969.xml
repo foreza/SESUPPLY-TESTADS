@@ -5,7 +5,7 @@
                 <![CDATA[ doubleverify ]]>
             </AdSystem>
             <VASTAdTagURI>
-                <![CDATA[https://raw.githubusercontent.com/InteractiveAdvertisingBureau/VAST_Samples/master/VAST%203.0%20Samples/Inline_Companion_Tag-test.xml]]>
+                <![CDATA[https://jasonthechiu.com/SESUPPLY-TESTADS/dfp-test-vpaid.xml]]>
             </VASTAdTagURI>
             <Error>
                 <![CDATA[ https://vtrk.doubleverify.com/t/v=1&t=event&tid=ZW-12000000&ec=VAST&cid=287b16f8-9ece-4cb8-8469-5fad133c2459&el=https_3A_2F_2Fads.aerserv.com_2Fas_2F_3Fplc_3D1069696_26cb_3D_26ip_3D_26ua_3D_26url_3D_26vpaid_3D_26vpw_3D_26vph_3D&ea=error&cm114=0&cd111=wrapper&cd112=No_20Ads_20in_20VAST&cd117=-1&cd190=818052&cd191=DV155764&cd192=20200825&cd193=2020082501&cd196=3&cd188=sfo2&cd189=droplet&cd182=vpaid-transformer_400.20.12&cd141=&cd142=98187&cd143=[TIMESTAMP]&cd10=[ERRORCODE]&z=16027921780749835180/https/tps.doubleverify.com/visit.jpg?ctx=818052&cmp=DV024064&sid=1234&plc=1234&advid=818053&crt=vastError&vasttrkevt=impression&dvp_ctx=818052&dvp_cmp=DV155764&dvp_sid=20200825&dvp_plc=2020082501&tagtype=video&dvtagver=6.1.img&adsrv=166&dup=287b16f8-9ece-4cb8-8469-5fad133c2459&dvp_zjsver=0.20.12&gdpr_consent=&gdpr_consent=&gdpr=&apifw=&vssd=&dvp_pgurl=microsoftcasualgames.com&dvp_psfts=1602792177706&dvp_psfst=ack&vstvr=2.0-r&essd=[SERVERSIDE]&verr=[ERRORCODE] ]]>
