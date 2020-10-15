@@ -1,0 +1,83 @@
+<VAST version="2.0">
+    <Ad id="doubleverify_ad">
+        <Wrapper>
+            <AdSystem>
+                <![CDATA[ doubleverify ]]>
+            </AdSystem>
+            <VASTAdTagURI>
+                <![CDATA[https://ads.aerserv.com/as/?plc=1070893&cb=&ip=&ua=&url=&vpaid=&vpw=&vph=]]>
+            </VASTAdTagURI>
+            <Error>
+                <![CDATA[ https://vtrk.doubleverify.com/t/v=1&t=event&tid=ZW-12000000&ec=VAST&cid=287b16f8-9ece-4cb8-8469-5fad133c2459&el=https_3A_2F_2Fads.aerserv.com_2Fas_2F_3Fplc_3D1069696_26cb_3D_26ip_3D_26ua_3D_26url_3D_26vpaid_3D_26vpw_3D_26vph_3D&ea=error&cm114=0&cd111=wrapper&cd112=No_20Ads_20in_20VAST&cd117=-1&cd190=818052&cd191=DV155764&cd192=20200825&cd193=2020082501&cd196=3&cd188=sfo2&cd189=droplet&cd182=vpaid-transformer_400.20.12&cd141=&cd142=98187&cd143=[TIMESTAMP]&cd10=[ERRORCODE]&z=16027921780749835180/https/tps.doubleverify.com/visit.jpg?ctx=818052&cmp=DV024064&sid=1234&plc=1234&advid=818053&crt=vastError&vasttrkevt=impression&dvp_ctx=818052&dvp_cmp=DV155764&dvp_sid=20200825&dvp_plc=2020082501&tagtype=video&dvtagver=6.1.img&adsrv=166&dup=287b16f8-9ece-4cb8-8469-5fad133c2459&dvp_zjsver=0.20.12&gdpr_consent=&gdpr_consent=&gdpr=&apifw=&vssd=&dvp_pgurl=microsoftcasualgames.com&dvp_psfts=1602792177706&dvp_psfst=ack&vstvr=2.0-r&essd=[SERVERSIDE]&verr=[ERRORCODE] ]]>
+            </Error>
+            <Impression>
+                <![CDATA[ https://vtrk.doubleverify.com/?v=1&t=event&tid=ZW-12000000&ec=VAST&cid=287b16f8-9ece-4cb8-8469-5fad133c2459&el=https%3A%2F%2Fads.aerserv.com%2Fas%2F%3Fplc%3D1069696%26cb%3D%26ip%3D%26ua%3D%26url%3D%26vpaid%3D%26vpw%3D%26vph%3D&ea=impression&cm114=0&cd111=wrapper&cd112=No%20Ads%20in%20VAST&cd117=-1&cd190=818052&cd191=DV155764&cd192=20200825&cd193=2020082501&cd196=3&cd188=sfo2&cd189=droplet&cd182=vpaid-transformer%400.20.12&cd141=&cd142=98187&cd143=[TIMESTAMP]&z=16027921780749835180 ]]>
+            </Impression>
+            <Impression>
+                <![CDATA[ https://tps.doubleverify.com/visit.jpg?vstevt=2&tagtype=video&dvtagver=6.1.img&ctx=818052&cmp=DV155764&sid=20200825&plc=2020082501&adsrv=166&dup=287b16f8-9ece-4cb8-8469-5fad133c2459&dvp_zjsver=0.20.12&gdpr_consent=&gdpr_consent=&gdpr=&apifw=&vssd=&dvp_pgurl=microsoftcasualgames.com&dvp_psfts=1602792177706&dvp_psfst=ack&vstvr=2.0-r&app=[APPBUNDLE]&gdpr_consent=[GDPRCONSENT]&essd=[SERVERSIDE] ]]>
+            </Impression>
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <TrackingEvents>
+                            <Tracking event="complete">
+                                <![CDATA[ https://vtrk.doubleverify.com/?v=1&t=event&tid=ZW-12000000&ec=VAST&cid=287b16f8-9ece-4cb8-8469-5fad133c2459&el=https%3A%2F%2Fads.aerserv.com%2Fas%2F%3Fplc%3D1069696%26cb%3D%26ip%3D%26ua%3D%26url%3D%26vpaid%3D%26vpw%3D%26vph%3D&ea=complete&cm114=0&cd111=wrapper&cd112=No%20Ads%20in%20VAST&cd117=-1&cd190=818052&cd191=DV155764&cd192=20200825&cd193=2020082501&cd196=3&cd188=sfo2&cd189=droplet&cd182=vpaid-transformer%400.20.12&cd141=&cd142=98187&cd143=[TIMESTAMP]&z=16027921780749835180 ]]>
+                            </Tracking>
+                            <Tracking event="firstQuartile">
+                                <![CDATA[ https://tps.doubleverify.com/event.png?vstevt=4&dup=287b16f8-9ece-4cb8-8469-5fad133c2459 ]]>
+                            </Tracking>
+                            <Tracking event="midpoint">
+                                <![CDATA[ https://tps.doubleverify.com/event.png?vstevt=6&dup=287b16f8-9ece-4cb8-8469-5fad133c2459 ]]>
+                            </Tracking>
+                            <Tracking event="thirdQuartile">
+                                <![CDATA[ https://tps.doubleverify.com/event.png?vstevt=8&dup=287b16f8-9ece-4cb8-8469-5fad133c2459 ]]>
+                            </Tracking>
+                            <Tracking event="complete">
+                                <![CDATA[ https://tps.doubleverify.com/event.png?vstevt=10&dup=287b16f8-9ece-4cb8-8469-5fad133c2459 ]]>
+                            </Tracking>
+                            <Tracking event="start">
+                                <![CDATA[ https://tps.doubleverify.com/event.png?vstevt=0&dup=287b16f8-9ece-4cb8-8469-5fad133c2459 ]]>
+                            </Tracking>
+                            <Tracking event="pause">
+                                <![CDATA[ https://tps.doubleverify.com/event.png?vstevt=22&dup=287b16f8-9ece-4cb8-8469-5fad133c2459 ]]>
+                            </Tracking>
+                            <Tracking event="resume">
+                                <![CDATA[ https://tps.doubleverify.com/event.png?vstevt=23&dup=287b16f8-9ece-4cb8-8469-5fad133c2459 ]]>
+                            </Tracking>
+                            <Tracking event="mute">
+                                <![CDATA[ https://tps.doubleverify.com/event.png?vstevt=30&dup=287b16f8-9ece-4cb8-8469-5fad133c2459 ]]>
+                            </Tracking>
+                            <Tracking event="unmute">
+                                <![CDATA[ https://tps.doubleverify.com/event.png?vstevt=31&dup=287b16f8-9ece-4cb8-8469-5fad133c2459 ]]>
+                            </Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickTracking>
+                                <![CDATA[ https://vtrk.doubleverify.com/?v=1&t=event&tid=ZW-12000000&ec=VAST&cid=287b16f8-9ece-4cb8-8469-5fad133c2459&el=https%3A%2F%2Fads.aerserv.com%2Fas%2F%3Fplc%3D1069696%26cb%3D%26ip%3D%26ua%3D%26url%3D%26vpaid%3D%26vpw%3D%26vph%3D&ea=click&cm114=0&cd111=wrapper&cd112=No%20Ads%20in%20VAST&cd117=-1&cd190=818052&cd191=DV155764&cd192=20200825&cd193=2020082501&cd196=3&cd188=sfo2&cd189=droplet&cd182=vpaid-transformer%400.20.12&cd141=&cd142=98187&cd143=[TIMESTAMP]&z=16027921780749835180 ]]>
+                            </ClickTracking>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+            </Creatives>
+            <Extensions>
+                <Extension type="AdVerifications">
+                    <AdVerifications>
+                        <Verification vendor="doubleverify.com-omid">
+                            <JavaScriptResource apiFramework="omid" browserOptional="true">
+                                <![CDATA[ https://cdn.doubleverify.com/dvtp_src.js?vendor_key=doubleverify.com-omid ]]>
+                            </JavaScriptResource>
+                            <TrackingEvents>
+                                <Tracking event="verificationNotExecuted">
+                                    <![CDATA[ https://tps.doubleverify.com/visit.jpg?verr=[REASON]&tagtype=video&dvtagver=6.1.img&ctx=818052&cmp=DV064005&sid=123&plc=verificationRejection&advid=818053&crt=omidVerificationNotExecuted&vasttrkevt=impression&dvp_ctx=818052&dvp_cmp=DV155764&dvp_sid=20200825&dvp_plc=2020082501&adsrv=166&dup=287b16f8-9ece-4cb8-8469-5fad133c2459&dvp_zjsver=0.20.12&gdpr_consent=&gdpr_consent=&gdpr=&apifw=&vssd=&dvp_pgurl=microsoftcasualgames.com&dvp_psfts=1602792177706&dvp_psfst=ack&vstvr=2.0-r ]]>
+                                </Tracking>
+                            </TrackingEvents>
+                            <VerificationParameters>
+                                <![CDATA[ dummy=dummy&tagtype=video&dvtagver=6.1.src&msrapi=jsOmid&ctx=818052&cmp=DV155764&sid=20200825&plc=2020082501&adsrv=166&dup=287b16f8-9ece-4cb8-8469-5fad133c2459&dvp_zjsver=0.20.12&gdpr_consent=&gdpr_consent=&gdpr=&apifw=&vssd=&dvp_pgurl=microsoftcasualgames.com&dvp_psfts=1602792177706&dvp_psfst=ack&vstvr=2.0-r ]]>
+                            </VerificationParameters>
+                        </Verification>
+                    </AdVerifications>
+                </Extension>
+            </Extensions>
+        </Wrapper>
+    </Ad>
+</VAST>
