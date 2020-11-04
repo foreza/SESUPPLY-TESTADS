@@ -20,7 +20,7 @@
         </Creative>
       </Creatives>
       <VASTAdTagURI>
-        <![CDATA[https://jasonthechiu.com/SESUPPLY-TESTADS/wrapperTests/layer3.xml]]>
+        <![CDATA[https://raw.githubusercontent.com/InteractiveAdvertisingBureau/VAST_Samples/master/VAST%204.0%20Samples/Inline_Companion_Tag-test.xml]]>
       </VASTAdTagURI>
     </Wrapper>
   </Ad>
