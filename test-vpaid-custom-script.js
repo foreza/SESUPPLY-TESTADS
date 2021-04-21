@@ -102,11 +102,12 @@ VpaidVideoPlayer.prototype.handshakeVersion = function(version) {
  *     creative like the slot and video slot.
  */
 VpaidVideoPlayer.prototype.initAd = function(
+  console.log("initAd called");
     width, height, viewMode, desiredBitrate, creativeData, environmentVars) {
-  //this.attributes_['width'] = width;
-  //this.attributes_['height'] = height;
-  this.attributes_['width'] = 1; // Test out whether we can handle this
-  this.attributes_['height'] = 1; // Test out whether we can handle this
+  this.attributes_['width'] = width;
+  this.attributes_['height'] = height;
+  //this.attributes_['width'] = 1; // Test out whether we can handle this
+  //this.attributes_['height'] = 1; // Test out whether we can handle this
   this.attributes_['viewMode'] = viewMode;
   this.attributes_['desiredBitrate'] = desiredBitrate;
 
