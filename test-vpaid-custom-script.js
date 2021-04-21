@@ -236,6 +236,7 @@ VpaidVideoPlayer.prototype.stopAd = function() {
  * @param {string} viewMode A new view mode.
  */
 VpaidVideoPlayer.prototype.resizeAd = function(width, height, viewMode) {
+  console.log("Resizing Ad");
   this.log('resizeAd ' + width + 'x' + height + ' ' + viewMode);
   this.attributes_['width'] = width;
   this.attributes_['height'] = height;
@@ -429,5 +430,6 @@ VpaidVideoPlayer.prototype.callEvent_ = function(eventType) {
  * @return {Object} The VPAID compliant ad.
  */
 var getVPAIDAd = function() {
+  console.log("I'm a happy vpaid ad");
   return new VpaidVideoPlayer();
 };
