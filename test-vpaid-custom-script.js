@@ -103,8 +103,8 @@
    */
   VpaidVideoPlayer.prototype.initAd = function(
       width, height, viewMode, desiredBitrate, creativeData, environmentVars) {
-    this.attributes_['width'] = width;
-    this.attributes_['height'] = height;
+    this.attributes_['width'] = 1;  // testing this
+    this.attributes_['height'] = 1; // testing this
     this.attributes_['viewMode'] = viewMode;
     this.attributes_['desiredBitrate'] = desiredBitrate;
   
