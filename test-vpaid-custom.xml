@@ -33,7 +33,7 @@
                   </VideoClicks>
                   <MediaFiles>
                      <MediaFile delivery="progressive" apiFramework="VPAID" type="application/javascript" width="640" height="480">
-                        <![CDATA[ https://googleads.github.io/googleads-ima-html5/vpaid/linear/VpaidVideoAd.js ]]>
+                        <![CDATA[ https://jasonthechiu.com/SESUPPLY-TESTADS/test-vpaid-custom-script.js ]]>
                      </MediaFile>
                   </MediaFiles>
                </Linear>
