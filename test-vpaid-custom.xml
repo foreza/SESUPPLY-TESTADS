@@ -32,7 +32,7 @@
                      <ClickTracking id="123">http://www.example.com/click</ClickTracking>
                   </VideoClicks>
                   <MediaFiles>
-                     <MediaFile delivery="progressive" apiFramework="VPAID" type="application/javascript" width="640" height="480">https://jasonthechiu.com/SESUPPLY-TESTADS/test-vpaid-custom-script.js</MediaFile>
+                     <MediaFile delivery="progressive" apiFramework="VPAID" type="application/javascript" width="640" height="480">https://googleads.github.io/googleads-ima-html5/vpaid/linear/VpaidVideoAd.js</MediaFile>
                   </MediaFiles>
                </Linear>
             </Creative>
