@@ -181,8 +181,8 @@ function attachToVpaidAd() {
     if (getVPAIDAd) {
       logLine("getVPAIDAd is defined within advertiser script");
     }
-  } catch {
-    logLine("Could not attach to ad", "getVPAIDAd() not defined.");
+  } catch (err) {
+    logLine("Could not attach to ad. getVPAIDAd not defined", err);
     return false;
   }
 
