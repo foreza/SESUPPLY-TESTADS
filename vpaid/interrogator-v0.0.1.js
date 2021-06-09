@@ -1,5 +1,3 @@
-var advertiserCreativeRef; // Store vpaidAd reference in here.
-
 var controlPanelRef; // Reference to control panel
 
 var pauseAdButtonRef;
@@ -174,7 +172,7 @@ This should be invoked after the creative script has been loaded into the DOM
 This will return true if attach is successful, short terminate and false if not
 */
 function attachToVpaidAd() {
-  logLine("Attaching to vpaid ad");
+  logLine("Testing attaching to vpaid ad");
 
   // Test to see if getVPAIDAd is even defined.
   try {
@@ -186,8 +184,8 @@ function attachToVpaidAd() {
     return false;
   }
 
-  // Get the reference to the vpaid ad so we can control it as we like
-  advertiserCreativeRef = getVPAIDAd();
+  // Get a sample reference to the vpaid ad so we can control it as we like
+  var advertiserCreativeRef = getVPAIDAd();
   if (!advertiserCreativeRef) {
     logLine("Could not attach to ad", "getVPAIDAd() returned null");
     return false;
@@ -195,7 +193,15 @@ function attachToVpaidAd() {
 
   // Run a basic IAB test against it just to check for compliance
   iab_interrogateAdIsValid(advertiserCreativeRef);
-  logLine("Attached to ad.");
+
+  // At this point, we _should_ have the window.vpaidAd reference. 
+  // Get that.
+  if (typeof (vpaidAd) != undefined) {
+      logLine("vpaidAd does not exist - halt", "vpaidAd not defined.");
+      return false;
+  }
+
+  logLine("vpaidAd does exist in global scope- use this to call all APIs.");
   return true;
 }
 
