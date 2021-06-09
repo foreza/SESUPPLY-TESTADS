@@ -137,7 +137,7 @@ VPAID API testing
 function testVpaidAdPause() {
   logLine("Instructing Vpaid Ad to Pause");
   try {
-    advertiserCreativeRef.pauseAd();
+    vpaidAd.pauseAd();
   } catch (err) {
     logLine("Failed to pause: ", err);
   }
@@ -147,7 +147,7 @@ function testVpaidAdPause() {
 function testVpaidAdResume() {
   logLine("Instructing Vpaid Ad to Resume");
   try {
-    advertiserCreativeRef.resumeAd();
+    vpaidAd.resumeAd();
   } catch (err) {
     logLine("Failed to resume: ", err);
   }
@@ -157,7 +157,7 @@ function testVpaidAdResume() {
 function testVpaidAdResize() {
   logLine("Instructing Vpaid Ad to Resize");
   try {
-    advertiserCreativeRef.resizeAd();
+    vpaidAd.resizeAd();
   } catch (err) {
     logLine("Failed to resize: ", err);
   }
@@ -185,14 +185,14 @@ function attachToVpaidAd() {
   }
 
   // Get a sample reference to the vpaid ad so we can control it as we like
-  var advertiserCreativeRef = getVPAIDAd();
-  if (!advertiserCreativeRef) {
-    logLine("Could not attach to ad", "getVPAIDAd() returned null");
+  var testRef = getVPAIDAd();
+  if (!testRef) {
+    logLine("Could not get ad", "getVPAIDAd() returned null");
     return false;
   }
 
   // Run a basic IAB test against it just to check for compliance
-  iab_interrogateAdIsValid(advertiserCreativeRef);
+  iab_interrogateAdIsValid(testRef);
 
   // At this point, we _should_ have the window.vpaidAd reference. 
   // Get that.
@@ -232,10 +232,10 @@ function iab_interrogateAdIsValid(VPAIDCreative) {
     VPAIDCreative.unsubscribe &&
     typeof VPAIDCreative.unsubscribe == "function"
   ) {
-    logLine("Ad is complaint based off of IAB spec");
+    logLine("Ad is compliant based off of IAB spec");
     return true;
   }
-  logLine("Note: Ad is not complaint based off of IAB spec", "err");
+  logLine("Note: Ad is not compliant based off of IAB spec", "err");
   return false;
 }
 
