@@ -205,7 +205,7 @@ function attachToVpaidAd() {
 
   // At this point, we _should_ have the window.vpaidAd reference. 
   // Get that.
-  if (typeof (vpaidAd) != undefined) {
+  if (typeof (vpaidAd) === undefined) {
       logLine("vpaidAd does not exist - halt", "vpaidAd not defined.");
       return false;
   }
