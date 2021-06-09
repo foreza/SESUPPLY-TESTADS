@@ -1,6 +1,5 @@
 var controlPanelRef; // Reference to control panel
 
-var attachToAdRef;
 var pauseAdButtonRef;
 var resumeAdButtonRef;
 var resizeAdButtonRef;
@@ -61,18 +60,13 @@ function toggleConsoleLogVisibility() {
   }
 }
 
-//
-
-function doAttachToCreative(){
-    var success = attachToVpaidAd(); // Attach to the vpaid creative
-    success
-      ? logLine("=== Interrogator is online ====")
-      : logLine("Failed", "Status was false");
-}
-
 function beginInterrogator() {
   initLogger(); // Always do this first
   initInterrogationUI();
+  var success = attachToVpaidAd(); // Attach to the vpaid creative
+  success
+    ? logLine("=== Interrogator is online ====")
+    : logLine("Failed", "Status was false");
 }
 
 function initInterrogationUI() {
@@ -84,14 +78,6 @@ function initInterrogationUI() {
 
   // TODO: simplify this. this can SOOO be simplified.
 
-  // Attach button
-
-  attachToAdRef = document.createElement("BUTTON"); // Note: setting style on the button is trickier.
-  attachToAdRef.innerHTML = "Attach to ad";
-  attachToAdRef.onclick = doAttachToCreative;
-  controlPanelRef.appendChild(attachToAdRef);
-  attachToAdRef = styleControlPaneButton(attachToAdRef);
-  attachToAdRef.style.color = "green";
 
   // Hide/show button
 
