@@ -152,7 +152,7 @@ function testVpaidAdResume() {
 function testVpaidAdResize() {
   logLine("Instructing Vpaid Ad to Resize");
   try {
-    vpaidAd.resizeAd();
+    vpaidAd.resizeAd(window.innerWidth, window.innerHeight);
   } catch (err) {
     logLine("Failed to resize: ", err);
   }
