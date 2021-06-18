@@ -1,0 +1,226 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+</body>
+
+<h2>Attach Tactic CSV here</h2>
+<input id="csvUpload" type="file" accept=".csv" />
+
+<button onclick="processCSV()">Parse CSV</button>
+<button onclick="verifyImpressionURLs()">Process Impression URLs</button>
+<button onclick="printResults()">Print Results</button>
+
+
+<button onclick="clearAll()">Clear All</button>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://evanplaice.github.io/jquery-csv/src/jquery.csv.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+
+<script>
+
+  var tacticData;                 // processCSV will provide this if successful.
+  var jsImpURLCollection;         // After the process CSV step, 
+
+  var successCount = 0;
+  var failureCount = 0;
+  var failedURLMap = [];             // After processing the urls to see which ones are successful
+
+  // Helper function to log errors in a uniform manner
+  function errorLog(e, s) {
+    var suggestion = s != undefined ? "\n\n As a suggestion, try this: \n\n " + s : ""
+    var msg = "[TL]: Something went wrong! \n\n Error message: \n\n" + e + suggestion
+    console.error(msg);
+    alert(msg);
+  }
+
+  // This is invoked by the button press to process the CSV
+  function processCSV() {
+
+    // Get the file and read it in.
+    var selectedFile = document.getElementById('csvUpload').files[0];
+    var reader = new FileReader();
+
+    // Define a callback for onload.
+    reader.onload = function (evt) {
+      var raw = evt.target.result;
+      tacticData = getDataFromCSV(raw);                           // Get the data from the CSV
+      jsImpURLCollection = obtainImpressionURLs(tacticData);      // Process the data to get all URLs
+      // console.log("Fetched: ", jsImpURLCollection);
+    };
+
+    try {
+      reader.readAsText(selectedFile);
+    } catch (e) {
+      errorLog(e, "Did you forget to upload a file?");
+      return;
+    }
+  }
+
+
+  // This is invoked by the button press to check all impression URLs
+
+  function verifyImpressionURLs() {
+
+    // Batch these in groups of "X" so we're not overloading our poor computer...
+    // Queue up batchSize # of requests and execute them.
+    processBatchAfterDelayMS(jsImpURLCollection, 100, 0, 50);
+
+  }
+
+  var batchNum = 0;
+
+  // After some delay, execute httprequests.
+  function processBatchAfterDelayMS(collection, delay, startingIndex, batchSize) {
+    setTimeout(function () {
+      for (var i = startingIndex; i < startingIndex + batchSize; ++i) {
+        var t = collection[i];
+        if (t) {
+          // console.log(`Handling: `, t);
+          doRequestForURLAndTactic(t[1], t[0]);
+        } else {
+          // console.error("oh no");
+        }
+
+      }
+
+      // console.log("Batch number: ", batchNum);
+
+      if (startingIndex + batchSize >= collection.length) {
+        console.log("Finished processing!");
+        return;
+      } else {
+        batchNum++;
+        processBatchAfterDelayMS(collection, delay, startingIndex + batchSize, batchSize);    // Call the next batch.
+      }
+
+    }, delay);
+
+  }
+
+
+
+  function printResults() {
+
+    console.log(`Success: ${successCount}, Failure: ${failureCount}`);
+    console.log("Failed URLs and their tactic: ", failedURLMap);
+
+  }
+
+
+  function getDataFromCSV(csv_data) {
+
+    // CREDITS go to https://github.com/evanplaice/jquery-csv/ to save some time here.
+
+    var data;
+
+    try {
+      data = $.csv.toArrays(csv_data);
+      return data;
+    } catch (e) {
+      console.error(e, "Is that a valid CSV for tactic data?");
+      return;
+    }
+
+
+  }
+
+
+  function obtainImpressionURLs(data) {
+
+    var impURLCollection = [];
+
+    // Format it the way we need.
+    for (var i = 1; i < data.length; ++i) {
+
+      var urlTargets = data[i][8].split(",");    // There may be 0, 1, or more URLs
+      var currTactic = data[i][1];
+
+      // Verify that the url(s) are valid
+      if (isValidURLCollection(urlTargets)) {
+
+        // console.log("url targets:", urlTargets.length);
+
+        // Loop through each valid row
+        for (var j = 0; j < urlTargets.length; ++j) {
+
+          // Clean up the url targets for the row
+          var cleanedURLArr = cleanURLTargets(urlTargets[j]);
+          var entry = [currTactic, cleanedURLArr];
+          impURLCollection.push(entry);
+        }
+
+
+      } else {
+        // console.log("No valid urls found for this tactic: ", currTactic);
+      }
+    }
+
+
+    return impURLCollection;
+  }
+
+  // Function that checks whether the collection of URLS is valid
+  function isValidURLCollection(urlTargets) {
+    if (urlTargets.length == 0 || urlTargets[0] == "[]" || urlTargets == "NULL") {
+      return false;
+    }
+    // console.log(urlTargets)
+    return true;
+  }
+
+  // Clean the URL targets and return an array of urls we can use
+
+  function cleanURLTargets(urlArr) {
+
+    // console.log(urlArr);
+
+    var collection = [];
+    var splitByQuotes = urlArr.split("\"");
+    splitByQuotes.map(function (a) {
+      if (a.length > 1) {
+        collection.push(a);
+      }
+    });
+    // console.log("Finished: ", collection);
+    return collection;
+  }
+
+  // Do a request and return success or failure
+  function doRequestForURLAndTactic(url, tactic) {
+    // console.log("Tactic: " + tactic + " - Request for: " + url);
+
+    axios.get(url, { timeout: 300 }).then(function (response) {
+      if (response.status.toString()[0] === "2" || response.status.toString()[0] === "3") {
+        successCount++;
+      }
+    }).catch(function (error) {
+      failureCount++;
+      failedURLMap.push([tactic, url]);
+    });
+
+
+  }
+
+  function printResultTable() {
+
+    /// Number OK (2xx and 3xx Responses), 
+    // Number Failed (4xx and 5xx Responses) 
+    // List the Tactic ID & URLs that failed
+
+
+
+  }
+
+</script>
+
+
+</html>>
