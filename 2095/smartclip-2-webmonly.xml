@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:noNamespaceSchemaLocation="vast.xsd">
+    <Ad id="c277e6b0-20d4-438b-b1de-df7c484f4cdd">
+        <InLine>
+            <AdSystem version="16">Adform</AdSystem>
+            <AdTitle>10c_Markenkampagne_PreRoll_03_Mehr-als-Geld_20s</AdTitle>
+            <Impression id="adform"><![CDATA[https://track.adform.net/videoad/impr/?bn=47112169;rotseqno=1;smid=0;1x1inv=1;srctype=3;unloadid=8407388504579738127;rtbwp=YNOeSQAHHQpiMzIzYzY2MCMMH49qVX4bMdrpcQ;rtbdata=tIy7dEG3-Xx1iyftzmOijwgQnv4NB0V2JNE16Ho5klY52vGnKqeKSwRi7vGdMtT15Q9x3KzSb3kwdwN60MWtn4BHLk4ZMQsmvO-5CNmbPO01oqQhz5qye0EVWB-LjgL9NZk0RnXfRk3Hoj6ALcYNaprg-8vH_N2P_OsRfVhUDGv5yWoQPQq8RODPke_Hufvq6kW4F7zbIi29ijgDfMlqFcN2ad8NblsW3YEALhkz5klbZ5zcX9ME8tt5FYtQN8wgHzCH2RuErxDB58NFydUrB80hDHneC1R5ylLk0wY6j8z0g2Rz40frKe8F5ksbg-JL0;ord=492228]]></Impression>
+            <Creatives>
+                <Creative id="000001" sequence="1" AdID="c277e6b0-20d4-438b-b1de-df7c484f4cdd">
+                    <Linear>
+                        <Duration>00:00:20</Duration>
+                        <TrackingEvents>
+                            <Tracking event="creativeView"><![CDATA[https://track.adform.net/videoad/event/?bn=47112169&event=40&time=0&banner=46039497&imprid=8407388504579738127&rnd=492228&rtbwp=YNOeSQAHHQpiMzIzYzY2MCMMH49qVX4bMdrpcQ&rtbdata=tIy7dEG3-Xx1iyftzmOijwgQnv4NB0V2JNE16Ho5klY52vGnKqeKSwRi7vGdMtT15Q9x3KzSb3kwdwN60MWtn4BHLk4ZMQsmvO-5CNmbPO01oqQhz5qye0EVWB-LjgL9NZk0RnXfRk3Hoj6ALcYNaprg-8vH_N2P_OsRfVhUDGv5yWoQPQq8RODPke_Hufvq6kW4F7zbIi29ijgDfMlqFcN2ad8NblsW3YEALhkz5klbZ5zcX9ME8tt5FYtQN8wgHzCH2RuErxDB58NFydUrB80hDHneC1R5ylLk0wY6j8z0g2Rz40frKe8F5ksbg-JL0&eData=DGxPOdjg18F-vB2drhiB5RlkquGBUkdGumjmAI-8sjxo4kOyoBiwbg2&]]></Tracking>
+                            <Tracking event="start"><![CDATA[https://track.adform.net/videoad/event/?bn=47112169&event=25&time=0&banner=46039497&imprid=8407388504579738127&rnd=492228&rtbwp=YNOeSQAHHQpiMzIzYzY2MCMMH49qVX4bMdrpcQ&rtbdata=tIy7dEG3-Xx1iyftzmOijwgQnv4NB0V2JNE16Ho5klY52vGnKqeKSwRi7vGdMtT15Q9x3KzSb3kwdwN60MWtn4BHLk4ZMQsmvO-5CNmbPO01oqQhz5qye0EVWB-LjgL9NZk0RnXfRk3Hoj6ALcYNaprg-8vH_N2P_OsRfVhUDGv5yWoQPQq8RODPke_Hufvq6kW4F7zbIi29ijgDfMlqFcN2ad8NblsW3YEALhkz5klbZ5zcX9ME8tt5FYtQN8wgHzCH2RuErxDB58NFydUrB80hDHneC1R5ylLk0wY6j8z0g2Rz40frKe8F5ksbg-JL0&eData=DGxPOdjg18F-vB2drhiB5RlkquGBUkdGumjmAI-8sjxo4kOyoBiwbg2&]]></Tracking>
+                            <Tracking event="firstQuartile"><![CDATA[https://track.adform.net/videoad/event/?bn=47112169&event=26&time=0&banner=46039497&imprid=8407388504579738127&rnd=492228&rtbwp=YNOeSQAHHQpiMzIzYzY2MCMMH49qVX4bMdrpcQ&rtbdata=tIy7dEG3-Xx1iyftzmOijwgQnv4NB0V2JNE16Ho5klY52vGnKqeKSwRi7vGdMtT15Q9x3KzSb3kwdwN60MWtn4BHLk4ZMQsmvO-5CNmbPO01oqQhz5qye0EVWB-LjgL9NZk0RnXfRk3Hoj6ALcYNaprg-8vH_N2P_OsRfVhUDGv5yWoQPQq8RODPke_Hufvq6kW4F7zbIi29ijgDfMlqFcN2ad8NblsW3YEALhkz5klbZ5zcX9ME8tt5FYtQN8wgHzCH2RuErxDB58NFydUrB80hDHneC1R5ylLk0wY6j8z0g2Rz40frKe8F5ksbg-JL0&eData=DGxPOdjg18F-vB2drhiB5RlkquGBUkdGumjmAI-8sjxo4kOyoBiwbg2&]]></Tracking>
+                            <Tracking event="midpoint"><![CDATA[https://track.adform.net/videoad/event/?bn=47112169&event=27&time=0&banner=46039497&imprid=8407388504579738127&rnd=492228&rtbwp=YNOeSQAHHQpiMzIzYzY2MCMMH49qVX4bMdrpcQ&rtbdata=tIy7dEG3-Xx1iyftzmOijwgQnv4NB0V2JNE16Ho5klY52vGnKqeKSwRi7vGdMtT15Q9x3KzSb3kwdwN60MWtn4BHLk4ZMQsmvO-5CNmbPO01oqQhz5qye0EVWB-LjgL9NZk0RnXfRk3Hoj6ALcYNaprg-8vH_N2P_OsRfVhUDGv5yWoQPQq8RODPke_Hufvq6kW4F7zbIi29ijgDfMlqFcN2ad8NblsW3YEALhkz5klbZ5zcX9ME8tt5FYtQN8wgHzCH2RuErxDB58NFydUrB80hDHneC1R5ylLk0wY6j8z0g2Rz40frKe8F5ksbg-JL0&eData=DGxPOdjg18F-vB2drhiB5RlkquGBUkdGumjmAI-8sjxo4kOyoBiwbg2&]]></Tracking>
+                            <Tracking event="thirdQuartile"><![CDATA[https://track.adform.net/videoad/event/?bn=47112169&event=28&time=0&banner=46039497&imprid=8407388504579738127&rnd=492228&rtbwp=YNOeSQAHHQpiMzIzYzY2MCMMH49qVX4bMdrpcQ&rtbdata=tIy7dEG3-Xx1iyftzmOijwgQnv4NB0V2JNE16Ho5klY52vGnKqeKSwRi7vGdMtT15Q9x3KzSb3kwdwN60MWtn4BHLk4ZMQsmvO-5CNmbPO01oqQhz5qye0EVWB-LjgL9NZk0RnXfRk3Hoj6ALcYNaprg-8vH_N2P_OsRfVhUDGv5yWoQPQq8RODPke_Hufvq6kW4F7zbIi29ijgDfMlqFcN2ad8NblsW3YEALhkz5klbZ5zcX9ME8tt5FYtQN8wgHzCH2RuErxDB58NFydUrB80hDHneC1R5ylLk0wY6j8z0g2Rz40frKe8F5ksbg-JL0&eData=DGxPOdjg18F-vB2drhiB5RlkquGBUkdGumjmAI-8sjxo4kOyoBiwbg2&]]></Tracking>
+                            <Tracking event="complete"><![CDATA[https://track.adform.net/videoad/event/?bn=47112169&event=29&time=0&banner=46039497&imprid=8407388504579738127&rnd=492228&rtbwp=YNOeSQAHHQpiMzIzYzY2MCMMH49qVX4bMdrpcQ&rtbdata=tIy7dEG3-Xx1iyftzmOijwgQnv4NB0V2JNE16Ho5klY52vGnKqeKSwRi7vGdMtT15Q9x3KzSb3kwdwN60MWtn4BHLk4ZMQsmvO-5CNmbPO01oqQhz5qye0EVWB-LjgL9NZk0RnXfRk3Hoj6ALcYNaprg-8vH_N2P_OsRfVhUDGv5yWoQPQq8RODPke_Hufvq6kW4F7zbIi29ijgDfMlqFcN2ad8NblsW3YEALhkz5klbZ5zcX9ME8tt5FYtQN8wgHzCH2RuErxDB58NFydUrB80hDHneC1R5ylLk0wY6j8z0g2Rz40frKe8F5ksbg-JL0&eData=DGxPOdjg18F-vB2drhiB5RlkquGBUkdGumjmAI-8sjxo4kOyoBiwbg2&]]></Tracking>
+                            <Tracking event="mute"><![CDATA[https://track.adform.net/videoad/event/?bn=47112169&event=34&time=0&banner=46039497&imprid=8407388504579738127&rnd=492228&rtbwp=YNOeSQAHHQpiMzIzYzY2MCMMH49qVX4bMdrpcQ&rtbdata=tIy7dEG3-Xx1iyftzmOijwgQnv4NB0V2JNE16Ho5klY52vGnKqeKSwRi7vGdMtT15Q9x3KzSb3kwdwN60MWtn4BHLk4ZMQsmvO-5CNmbPO01oqQhz5qye0EVWB-LjgL9NZk0RnXfRk3Hoj6ALcYNaprg-8vH_N2P_OsRfVhUDGv5yWoQPQq8RODPke_Hufvq6kW4F7zbIi29ijgDfMlqFcN2ad8NblsW3YEALhkz5klbZ5zcX9ME8tt5FYtQN8wgHzCH2RuErxDB58NFydUrB80hDHneC1R5ylLk0wY6j8z0g2Rz40frKe8F5ksbg-JL0&eData=DGxPOdjg18F-vB2drhiB5RlkquGBUkdGumjmAI-8sjxo4kOyoBiwbg2&]]></Tracking>
+                            <Tracking event="unmute"><![CDATA[https://track.adform.net/videoad/event/?bn=47112169&event=33&time=0&banner=46039497&imprid=8407388504579738127&rnd=492228&rtbwp=YNOeSQAHHQpiMzIzYzY2MCMMH49qVX4bMdrpcQ&rtbdata=tIy7dEG3-Xx1iyftzmOijwgQnv4NB0V2JNE16Ho5klY52vGnKqeKSwRi7vGdMtT15Q9x3KzSb3kwdwN60MWtn4BHLk4ZMQsmvO-5CNmbPO01oqQhz5qye0EVWB-LjgL9NZk0RnXfRk3Hoj6ALcYNaprg-8vH_N2P_OsRfVhUDGv5yWoQPQq8RODPke_Hufvq6kW4F7zbIi29ijgDfMlqFcN2ad8NblsW3YEALhkz5klbZ5zcX9ME8tt5FYtQN8wgHzCH2RuErxDB58NFydUrB80hDHneC1R5ylLk0wY6j8z0g2Rz40frKe8F5ksbg-JL0&eData=DGxPOdjg18F-vB2drhiB5RlkquGBUkdGumjmAI-8sjxo4kOyoBiwbg2&]]></Tracking>
+                            <Tracking event="pause"><![CDATA[https://track.adform.net/videoad/event/?bn=47112169&event=31&time=0&banner=46039497&imprid=8407388504579738127&rnd=492228&rtbwp=YNOeSQAHHQpiMzIzYzY2MCMMH49qVX4bMdrpcQ&rtbdata=tIy7dEG3-Xx1iyftzmOijwgQnv4NB0V2JNE16Ho5klY52vGnKqeKSwRi7vGdMtT15Q9x3KzSb3kwdwN60MWtn4BHLk4ZMQsmvO-5CNmbPO01oqQhz5qye0EVWB-LjgL9NZk0RnXfRk3Hoj6ALcYNaprg-8vH_N2P_OsRfVhUDGv5yWoQPQq8RODPke_Hufvq6kW4F7zbIi29ijgDfMlqFcN2ad8NblsW3YEALhkz5klbZ5zcX9ME8tt5FYtQN8wgHzCH2RuErxDB58NFydUrB80hDHneC1R5ylLk0wY6j8z0g2Rz40frKe8F5ksbg-JL0&eData=DGxPOdjg18F-vB2drhiB5RlkquGBUkdGumjmAI-8sjxo4kOyoBiwbg2&]]></Tracking>
+                            <Tracking event="resume"><![CDATA[https://track.adform.net/videoad/event/?bn=47112169&event=37&time=0&banner=46039497&imprid=8407388504579738127&rnd=492228&rtbwp=YNOeSQAHHQpiMzIzYzY2MCMMH49qVX4bMdrpcQ&rtbdata=tIy7dEG3-Xx1iyftzmOijwgQnv4NB0V2JNE16Ho5klY52vGnKqeKSwRi7vGdMtT15Q9x3KzSb3kwdwN60MWtn4BHLk4ZMQsmvO-5CNmbPO01oqQhz5qye0EVWB-LjgL9NZk0RnXfRk3Hoj6ALcYNaprg-8vH_N2P_OsRfVhUDGv5yWoQPQq8RODPke_Hufvq6kW4F7zbIi29ijgDfMlqFcN2ad8NblsW3YEALhkz5klbZ5zcX9ME8tt5FYtQN8wgHzCH2RuErxDB58NFydUrB80hDHneC1R5ylLk0wY6j8z0g2Rz40frKe8F5ksbg-JL0&eData=DGxPOdjg18F-vB2drhiB5RlkquGBUkdGumjmAI-8sjxo4kOyoBiwbg2&]]></Tracking>
+                            <Tracking event="fullscreen"><![CDATA[https://track.adform.net/videoad/event/?bn=47112169&event=35&time=0&banner=46039497&imprid=8407388504579738127&rnd=492228&rtbwp=YNOeSQAHHQpiMzIzYzY2MCMMH49qVX4bMdrpcQ&rtbdata=tIy7dEG3-Xx1iyftzmOijwgQnv4NB0V2JNE16Ho5klY52vGnKqeKSwRi7vGdMtT15Q9x3KzSb3kwdwN60MWtn4BHLk4ZMQsmvO-5CNmbPO01oqQhz5qye0EVWB-LjgL9NZk0RnXfRk3Hoj6ALcYNaprg-8vH_N2P_OsRfVhUDGv5yWoQPQq8RODPke_Hufvq6kW4F7zbIi29ijgDfMlqFcN2ad8NblsW3YEALhkz5klbZ5zcX9ME8tt5FYtQN8wgHzCH2RuErxDB58NFydUrB80hDHneC1R5ylLk0wY6j8z0g2Rz40frKe8F5ksbg-JL0&eData=DGxPOdjg18F-vB2drhiB5RlkquGBUkdGumjmAI-8sjxo4kOyoBiwbg2&]]></Tracking>
+                            <Tracking event="rewind"><![CDATA[https://track.adform.net/videoad/event/?bn=47112169&event=38&time=0&banner=46039497&imprid=8407388504579738127&rnd=492228&rtbwp=YNOeSQAHHQpiMzIzYzY2MCMMH49qVX4bMdrpcQ&rtbdata=tIy7dEG3-Xx1iyftzmOijwgQnv4NB0V2JNE16Ho5klY52vGnKqeKSwRi7vGdMtT15Q9x3KzSb3kwdwN60MWtn4BHLk4ZMQsmvO-5CNmbPO01oqQhz5qye0EVWB-LjgL9NZk0RnXfRk3Hoj6ALcYNaprg-8vH_N2P_OsRfVhUDGv5yWoQPQq8RODPke_Hufvq6kW4F7zbIi29ijgDfMlqFcN2ad8NblsW3YEALhkz5klbZ5zcX9ME8tt5FYtQN8wgHzCH2RuErxDB58NFydUrB80hDHneC1R5ylLk0wY6j8z0g2Rz40frKe8F5ksbg-JL0&eData=DGxPOdjg18F-vB2drhiB5RlkquGBUkdGumjmAI-8sjxo4kOyoBiwbg2&]]></Tracking>
+                            <Tracking event="close"><![CDATA[https://track.adform.net/videoad/event/?bn=47112169&event=23&time=0&banner=46039497&imprid=8407388504579738127&rnd=492228&rtbwp=YNOeSQAHHQpiMzIzYzY2MCMMH49qVX4bMdrpcQ&rtbdata=tIy7dEG3-Xx1iyftzmOijwgQnv4NB0V2JNE16Ho5klY52vGnKqeKSwRi7vGdMtT15Q9x3KzSb3kwdwN60MWtn4BHLk4ZMQsmvO-5CNmbPO01oqQhz5qye0EVWB-LjgL9NZk0RnXfRk3Hoj6ALcYNaprg-8vH_N2P_OsRfVhUDGv5yWoQPQq8RODPke_Hufvq6kW4F7zbIi29ijgDfMlqFcN2ad8NblsW3YEALhkz5klbZ5zcX9ME8tt5FYtQN8wgHzCH2RuErxDB58NFydUrB80hDHneC1R5ylLk0wY6j8z0g2Rz40frKe8F5ksbg-JL0&eData=DGxPOdjg18F-vB2drhiB5RlkquGBUkdGumjmAI-8sjxo4kOyoBiwbg2&]]></Tracking>
+                        </TrackingEvents>
+                        <AdParameters><![CDATA[{"utils":{"bn":"47112169","rotseqno":"1","cookieID":"0","smid":"0","unloadID":"8407388504579738127","height":1080,"width":1920,"pm":"2392220","visibilityArea":"[50]","visibilityTime":"[2]","ms":"2928810","ban":"46039497","serverTime":"1624481353886","sendUnloadData":"1","ufcEnabled":"0","isEventsEnabled":"1","rtbInventorySourceId":"318","rtbReqId":"b323c660-c6de-4d48-8abf-b15f044003b0_1","bnpl":"7757313","adfUnlTest":"0","uData":"kPLfoJRRpjfi5nP9TebYOumn3tQYot-A0","eData":"DGxPOdjg18F-vB2drhiB5RlkquGBUkdGumjmAI-8sjxo4kOyoBiwbg2","noVPAIDjs":true},"shost":"https://s2.adform.net","host":"https://track.adform.net","cdnHost":"https://s2.adform.net","maintainAspectRatio":true,"scalable":true}]]></AdParameters>
+                        <VideoClicks>
+                            <ClickThrough><![CDATA[https://track.adform.net/videoad/c/?bn=47112169;cdata=WXq7rD1NNbaTuFrj-4EJod3sAJS0Vv1zUgWgDz6V2Nk3iDmbWIBvS-FBboVeNKvP0;C=1;rtbwp=YNOeSQAHHQpiMzIzYzY2MCMMH49qVX4bMdrpcQ;rtbdata=tIy7dEG3-Xx1iyftzmOijwgQnv4NB0V2JNE16Ho5klY52vGnKqeKSwRi7vGdMtT15Q9x3KzSb3kwdwN60MWtn4BHLk4ZMQsmvO-5CNmbPO01oqQhz5qye0EVWB-LjgL9NZk0RnXfRk3Hoj6ALcYNaprg-8vH_N2P_OsRfVhUDGv5yWoQPQq8RODPke_Hufvq6kW4F7zbIi29ijgDfMlqFcN2ad8NblsW3YEALhkz5klbZ5zcX9ME8tt5FYtQN8wgHzCH2RuErxDB58NFydUrB80hDHneC1R5ylLk0wY6j8z0g2Rz40frKe8F5ksbg-JL0;]]></ClickThrough>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" type="video/webm" bitrate="1962" width="1920" height="1080" scalable="true" maintainAspectRatio="true"><![CDATA[https://s2.adform.net/Banners/Elements/Files/2032615/9889445.webm?bv=0&ADFAssetID=9889445]]></MediaFile>
+                            <MediaFile delivery="progressive" type="video/webm" bitrate="1963" width="1280" height="720" scalable="true" maintainAspectRatio="true"><![CDATA[https://s2.adform.net/Banners/Elements/Files/2032615/9889446.webm?bv=0&ADFAssetID=9889446]]></MediaFile>
+                            <MediaFile delivery="progressive" type="video/webm" bitrate="1228" width="1024" height="576" scalable="true" maintainAspectRatio="true"><![CDATA[https://s2.adform.net/Banners/Elements/Files/2032615/9889444.webm?bv=0&ADFAssetID=9889444]]></MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+            <Extensions>
+                <Extension type="adgapID">
+                    <Extension></Extension>
+                </Extension>
+                <Extension type="adc">
+                    <Extension>2032615</Extension>
+                </Extension>
+                <Extension type="cpid">
+                    <Extension>2392220</Extension>
+                </Extension>
+                <Extension type="site">
+                    <Extension>489908</Extension>
+                </Extension>
+                <Extension type="place">
+                    <Extension>7757313</Extension>
+                </Extension>
+                <Extension type="size">
+                    <Extension>1920x1080</Extension>
+                </Extension>
+                <Extension type="tm">
+                    <Extension>31621</Extension>
+                </Extension>
+            </Extensions>
+        </InLine>
+    </Ad>
+</VAST>
