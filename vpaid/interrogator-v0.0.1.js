@@ -18,17 +18,13 @@ var loggerWrapper; // Ref to the div wrapping the list
 
 var timeDisplayContainer;   
 
-function initTimeDurationDisplay() {
-  
-  // TODO
-  
-}
+
 
 function initLogger() {
   loggerWrapper = document.createElement("div");
   loggerWrapper.id = "interr-debug-logger";
   loggerWrapper.style =
-    "border: 1px solid black; position: absolute; bottom: 0; left: 0; width: 50%; height: 300px; background-color: #777; color: #fff";
+    "border: 1px solid black; position: absolute; bottom: 0; left: 320px; width: 30%; height: 300px; background-color: #777; color: #fff";
   loggerContainer = document.createElement("ul");
   loggerContainer.id = "logger-list";
   loggerWrapper.appendChild(loggerContainer);
@@ -84,7 +80,7 @@ function beginInterrogator() {
 function initInterrogationUI() {
   controlPanelRef = document.createElement("div");
   controlPanelRef.style =
-    "border: 4px dotted black; position: absolute; bottom: 0; right: 0; width: 320px; height: 250px;";
+    "border: 4px dotted black; position: absolute; bottom: 0; left: 0; width: 320px; height: 250px;";
   controlPanelRef.id = "interr-panel-ref";
   document.body.appendChild(controlPanelRef);
 
