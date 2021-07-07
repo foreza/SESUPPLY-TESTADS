@@ -6,17 +6,29 @@ var resizeAdButtonRef;
 var stopAdButtonRef;
 var showConsoleLogButtonRef;
 
+// Test time
+var getRemainingTimeButtonRef;
+var getRemainingTimeDisplayRef;
+
 // For allowing our homebrew logger functionality.
 
 var lastEleRef; // Ref to last inserted element in the debug logger
 var loggerContainer; // Ref to the list
 var loggerWrapper; // Ref to the div wrapping the list
 
+var timeDisplayContainer;   
+
+function initTimeDurationDisplay() {
+  
+  // TODO
+  
+}
+
 function initLogger() {
   loggerWrapper = document.createElement("div");
   loggerWrapper.id = "interr-debug-logger";
   loggerWrapper.style =
-    " border: 2px solid black; position: absolute; bottom: 0; right: 0; width: 50%; height: 300px;";
+    "border: 1px solid black; position: absolute; bottom: 0; left: 0; width: 50%; height: 300px; background-color: #777; color: #fff";
   loggerContainer = document.createElement("ul");
   loggerContainer.id = "logger-list";
   loggerWrapper.appendChild(loggerContainer);
