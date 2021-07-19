@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VAST version="2.0">
+    <Ad id="289262004">
+        <Wrapper>
+            <AdSystem version="2.0">The Trade Desk</AdSystem>
+            <VASTAdTagURI><![CDATA[https://insight.adsrvr.org/enduser/vast/?iid=${TTD_VAST_IMPRESSIONID}&crid=c7327th0&ttd_preview=1&wp=0${TTD_VAST_PARAMETERS}]]></VASTAdTagURI>
+            <Error><![CDATA[https://lax1-ib.adnxs.com/vast_track/v2?info=YQAAAAMArgAFAQlr2_VgAAAAABEfyCKSRuCHKBlr2_VgAAAAACC0k_eJASgAMAA4wAhAtc0aSMyhNFABWABiAlVTaABwAHgAgAEAiAEAkAEAmAEAoAEAqAG0k_eJAbABAQ..&s=3f322f0a8f78966208f5faf475a6b7756015a1b6&event_type=4&test=1&error_code=[ERRORCODE]]]></Error>
+            <Impression id="adnxs"><![CDATA[https://ib.adnxs.com/nop]]></Impression>
+            <Creatives>
+                <Creative id="17831644" AdID="289262004">
+                    <Linear>
+                        <TrackingEvents>
+                            <Tracking event="start"><![CDATA[https://lax1-ib.adnxs.com/vast_track/v2?info=YQAAAAMArgAFAQlr2_VgAAAAABEfyCKSRuCHKBlr2_VgAAAAACC0k_eJASgAMAA4wAhAtc0aSMyhNFABWABiAlVTaABwAHgAgAEAiAEAkAEAmAEAoAEAqAG0k_eJAbABAQ..&s=3f322f0a8f78966208f5faf475a6b7756015a1b6&event_type=2&test=1]]></Tracking>
+                            <Tracking event="skip"><![CDATA[https://lax1-ib.adnxs.com/vast_track/v2?info=YQAAAAMArgAFAQlr2_VgAAAAABEfyCKSRuCHKBlr2_VgAAAAACC0k_eJASgAMAA4wAhAtc0aSMyhNFABWABiAlVTaABwAHgAgAEAiAEAkAEAmAEAoAEAqAG0k_eJAbABAQ..&s=3f322f0a8f78966208f5faf475a6b7756015a1b6&event_type=3&test=1]]></Tracking>
+                            <Tracking event="firstQuartile"><![CDATA[https://lax1-ib.adnxs.com/vast_track/v2?info=YQAAAAMArgAFAQlr2_VgAAAAABEfyCKSRuCHKBlr2_VgAAAAACC0k_eJASgAMAA4wAhAtc0aSMyhNFABWABiAlVTaABwAHgAgAEAiAEAkAEAmAEAoAEAqAG0k_eJAbABAQ..&s=3f322f0a8f78966208f5faf475a6b7756015a1b6&event_type=5&test=1]]></Tracking>
+                            <Tracking event="midpoint"><![CDATA[https://lax1-ib.adnxs.com/vast_track/v2?info=YQAAAAMArgAFAQlr2_VgAAAAABEfyCKSRuCHKBlr2_VgAAAAACC0k_eJASgAMAA4wAhAtc0aSMyhNFABWABiAlVTaABwAHgAgAEAiAEAkAEAmAEAoAEAqAG0k_eJAbABAQ..&s=3f322f0a8f78966208f5faf475a6b7756015a1b6&event_type=6&test=1]]></Tracking>
+                            <Tracking event="thirdQuartile"><![CDATA[https://lax1-ib.adnxs.com/vast_track/v2?info=YQAAAAMArgAFAQlr2_VgAAAAABEfyCKSRuCHKBlr2_VgAAAAACC0k_eJASgAMAA4wAhAtc0aSMyhNFABWABiAlVTaABwAHgAgAEAiAEAkAEAmAEAoAEAqAG0k_eJAbABAQ..&s=3f322f0a8f78966208f5faf475a6b7756015a1b6&event_type=7&test=1]]></Tracking>
+                            <Tracking event="complete"><![CDATA[https://lax1-ib.adnxs.com/vast_track/v2?info=YQAAAAMArgAFAQlr2_VgAAAAABEfyCKSRuCHKBlr2_VgAAAAACC0k_eJASgAMAA4wAhAtc0aSMyhNFABWABiAlVTaABwAHgAgAEAiAEAkAEAmAEAoAEAqAG0k_eJAbABAQ..&s=3f322f0a8f78966208f5faf475a6b7756015a1b6&event_type=8&test=1]]></Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickTracking id="adnxs"><![CDATA[https://lax1-ib.adnxs.com/click?AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB_IIpJG4IcokrDCwHIv5RBr2_VgAAAAAAEAAABABAAAAAAAAAAAAAC0yT0RAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAAAAAEAfQzAjgAAAAA./bcr=AAAAAAAAAAA=/bn=0/test=1/]]></ClickTracking>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+            </Creatives>
+            <Extensions>
+                <Extension type="AdVerifications">
+                    <AdVerifications>
+                        <Verification vendor="appnexus.com-omid">
+                            <JavaScriptResource apiFramework="omid" browserOptional="true"><![CDATA[https://cdn.adnxs.com/v/video/213/trk.js]]></JavaScriptResource>
+                            <VerificationParameters><![CDATA[tv=vh2-132&d=1x1&s=856268&st=0&vctx=0&ts=1626725227&vc=iab;vid_ccr=1&vjs=https%3A%2F%2Fcdn.adnxs.com%2Fv%2Fvideo%2F213%2Ftrk.js&cb=https%3A%2F%2Flax1-ib.adnxs.com%2Fvevent%3Fan_audit%3D0%26e%3DwqT_3QKiA3yiAQAAAwDWAAUBCOu214cGEJ-Qi5HpiPjDKBgAKjYJAA0BABENCAQAGREJACERCQApEQkAMREJ8LwwATjACEAASABQtJP3iQFYAGAAaAB4AIABAIoBAJgBAaABAagBALABALgBAcABBcgBANABANgBAOABAfABANgCAOACAIADAIgDAZADAJgDAKADAKoDAMADrALIAwDYAwDgAwDoAwD4AwCABACYBACiBAw3Ni45NC4yMDUuNDWoBACyBAwIABAAGAAgADAAOAK4BADABADIBADaBAIIAeAEAfAEAIgFAZgFAKAFAMAFAMkFAAAAAAAA8D_SBQkV82jYBQDgBQDwBQD6BQQIABAAkAYAmAYAuAYAwQYR6RDaBhYKEBENEQFcEAAYAOAGAPIGAggAgAcBiAcAoAcAugcOAUQ8GAAgADAAOABAAMgHANIHDRVtATUI2gcGCSQ04AcA6gcCCADwB-Sm3gk.%26s%3De387a7872e5c34585738f36340d26f76c8dbf339&cet=0&cecb=&rdcb=https%3A%2F%2Flax1-ib.adnxs.com%2Frd_log%3Fan_audit%3D0%26e%3DwqT_3QKiA3yiAQAAAwDWAAUBCOu214cGEJ-Qi5HpiPjDKBgAKjYJAA0BABENCAQAGREJACERCQApEQkAMREJ8LwwATjACEAASABQtJP3iQFYAGAAaAB4AIABAIoBAJgBAaABAagBALABALgBAcABBcgBANABANgBAOABAfABANgCAOACAIADAIgDAZADAJgDAKADAKoDAMADrALIAwDYAwDgAwDoAwD4AwCABACYBACiBAw3Ni45NC4yMDUuNDWoBACyBAwIABAAGAAgADAAOAK4BADABADIBADaBAIIAeAEAfAEAIgFAZgFAKAFAMAFAMkFAAAAAAAA8D_SBQkV82jYBQDgBQDwBQD6BQQIABAAkAYAmAYAuAYAwQYR6RDaBhYKEBENEQFcEAAYAOAGAPIGAggAgAcBiAcAoAcAugcOAUQ8GAAgADAAOABAAMgHANIHDRVtATUI2gcGCSQ04AcA6gcCCADwB-Sm3gk.%26s%3De387a7872e5c34585738f36340d26f76c8dbf339&bridge=1.11.0&rblog=auc=2920549477077141535;bm=0;sm=1088;cr=289262004;pl=1&vid_context=anoutstream;anbannerstream;anoverlayplayer]]></VerificationParameters>
+                        </Verification>
+                    </AdVerifications>
+                </Extension>
+            </Extensions>
+        </Wrapper>
+    </Ad>
+</VAST>

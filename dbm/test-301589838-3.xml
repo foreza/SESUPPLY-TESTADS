@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VAST version="2.0">
+    <Ad id="301589838">
+        <Wrapper>
+            <AdSystem version="2.0">Amazon</AdSystem>
+            <VASTAdTagURI><![CDATA[https://aax-us-east.amazon-adsystem.com/e/an/vast?aaxbi=${AAX_BI}&aaxsp=0&aaxct=https%3A%2F%2Flax1-ib.adnxs.com%2Fclick%3FAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFPzvRux3HsCkrDCwHIv5RDy2fVgAAAAAAEAAAAsKAAAAAAAAAAAAABO5fkRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAAAAAEAPA6fCgAAAAA.%2Fbcr%3DAAAAAAAAAAA%3D%2Fbn%3D0%2Ftest%3D1%2Fclickenc%3D&aaxsz=1x1&aaxcc=09404A2F2259A4C0E623FF8C8214F48E&aaxci=${AAX_CI}&aaxcp=1&cb=1991521036]]></VASTAdTagURI>
+            <Error><![CDATA[https://lax1-ib.adnxs.com/vast_track/v2?info=YQAAAAMArgAFAQny2fVgAAAAABFT870bsdx7Ahny2fVgAAAAACDOyuePASgAMAA4rFBAtc0aSMyhNFABWABiAlVTaABwAHgAgAEAiAEAkAEAmAEAoAEAqAHOyuePAbABAQ..&s=149c3eb58bf109da8f88e5d2a91dcfcb27288511&event_type=4&test=1&error_code=[ERRORCODE]]]></Error>
+            <Impression id="adnxs"><![CDATA[https://ib.adnxs.com/nop]]></Impression>
+            <Creatives>
+                <Creative id="19071850" AdID="301589838">
+                    <Linear>
+                        <TrackingEvents>
+                            <Tracking event="start"><![CDATA[https://lax1-ib.adnxs.com/vast_track/v2?info=YQAAAAMArgAFAQny2fVgAAAAABFT870bsdx7Ahny2fVgAAAAACDOyuePASgAMAA4rFBAtc0aSMyhNFABWABiAlVTaABwAHgAgAEAiAEAkAEAmAEAoAEAqAHOyuePAbABAQ..&s=149c3eb58bf109da8f88e5d2a91dcfcb27288511&event_type=2&test=1]]></Tracking>
+                            <Tracking event="skip"><![CDATA[https://lax1-ib.adnxs.com/vast_track/v2?info=YQAAAAMArgAFAQny2fVgAAAAABFT870bsdx7Ahny2fVgAAAAACDOyuePASgAMAA4rFBAtc0aSMyhNFABWABiAlVTaABwAHgAgAEAiAEAkAEAmAEAoAEAqAHOyuePAbABAQ..&s=149c3eb58bf109da8f88e5d2a91dcfcb27288511&event_type=3&test=1]]></Tracking>
+                            <Tracking event="firstQuartile"><![CDATA[https://lax1-ib.adnxs.com/vast_track/v2?info=YQAAAAMArgAFAQny2fVgAAAAABFT870bsdx7Ahny2fVgAAAAACDOyuePASgAMAA4rFBAtc0aSMyhNFABWABiAlVTaABwAHgAgAEAiAEAkAEAmAEAoAEAqAHOyuePAbABAQ..&s=149c3eb58bf109da8f88e5d2a91dcfcb27288511&event_type=5&test=1]]></Tracking>
+                            <Tracking event="midpoint"><![CDATA[https://lax1-ib.adnxs.com/vast_track/v2?info=YQAAAAMArgAFAQny2fVgAAAAABFT870bsdx7Ahny2fVgAAAAACDOyuePASgAMAA4rFBAtc0aSMyhNFABWABiAlVTaABwAHgAgAEAiAEAkAEAmAEAoAEAqAHOyuePAbABAQ..&s=149c3eb58bf109da8f88e5d2a91dcfcb27288511&event_type=6&test=1]]></Tracking>
+                            <Tracking event="thirdQuartile"><![CDATA[https://lax1-ib.adnxs.com/vast_track/v2?info=YQAAAAMArgAFAQny2fVgAAAAABFT870bsdx7Ahny2fVgAAAAACDOyuePASgAMAA4rFBAtc0aSMyhNFABWABiAlVTaABwAHgAgAEAiAEAkAEAmAEAoAEAqAHOyuePAbABAQ..&s=149c3eb58bf109da8f88e5d2a91dcfcb27288511&event_type=7&test=1]]></Tracking>
+                            <Tracking event="complete"><![CDATA[https://lax1-ib.adnxs.com/vast_track/v2?info=YQAAAAMArgAFAQny2fVgAAAAABFT870bsdx7Ahny2fVgAAAAACDOyuePASgAMAA4rFBAtc0aSMyhNFABWABiAlVTaABwAHgAgAEAiAEAkAEAmAEAoAEAqAHOyuePAbABAQ..&s=149c3eb58bf109da8f88e5d2a91dcfcb27288511&event_type=8&test=1]]></Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickTracking id="adnxs"><![CDATA[https://lax1-ib.adnxs.com/click?AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFPzvRux3HsCkrDCwHIv5RDy2fVgAAAAAAEAAAAsKAAAAAAAAAAAAABO5fkRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAAAAAEAPA6fCgAAAAA./bcr=AAAAAAAAAAA=/bn=0/test=1/]]></ClickTracking>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+            </Creatives>
+            <Extensions>
+                <Extension type="AdVerifications">
+                    <AdVerifications>
+                        <Verification vendor="appnexus.com-omid">
+                            <JavaScriptResource apiFramework="omid" browserOptional="true"><![CDATA[https://cdn.adnxs.com/v/video/213/trk.js]]></JavaScriptResource>
+                            <VerificationParameters><![CDATA[tv=vh2-132&d=1x1&s=856268&st=0&vctx=0&ts=1626724850&vc=iab;vid_ccr=1&vjs=https%3A%2F%2Fcdn.adnxs.com%2Fv%2Fvideo%2F213%2Ftrk.js&cb=https%3A%2F%2Flax1-ib.adnxs.com%2Fvevent%3Fan_audit%3D0%26e%3DwqT_3QKiA3yiAQAAAwDWAAUBCPKz14cGENPm992Rlve9AhgAKjYJAA0BABENCAQAGREJACERCQApEQkAMREJ8LwwATisUEAASABQzsrnjwFYAGAAaAB4AIABAIoBAJgBAaABAagBALABALgBAcABBcgBANABANgBAOABAfABANgCAOACAIADAIgDAZADAJgDAKADAKoDAMADrALIAwDYAwDgAwDoAwD4AwCABACYBACiBAw3Ni45NC4yMDUuNDWoBACyBAwIABAAGAAgADAAOAK4BADABADIBADaBAIIAeAEAfAEAIgFAZgFAKAFAMAFAMkFAAAAAAAA8D_SBQkV82zYBQDgBQDwBQD6BQQIABAAkAYAmAYAuAYAwQYADQEQ2gYWChANDBUBXBAAGADgBgDyBgIIAIAHAYgHAKAHALoHDgFEPBgAIAAwADgAQADIBwDSBw0VbQE1CNoHBgkkNOAHAOoHAggA8Afkpt4J%26s%3D47489c44fa96b8b5c6c181d971acc48e080f3cdb&cet=0&cecb=&rdcb=https%3A%2F%2Flax1-ib.adnxs.com%2Frd_log%3Fan_audit%3D0%26e%3DwqT_3QKiA3yiAQAAAwDWAAUBCPKz14cGENPm992Rlve9AhgAKjYJAA0BABENCAQAGREJACERCQApEQkAMREJ8LwwATisUEAASABQzsrnjwFYAGAAaAB4AIABAIoBAJgBAaABAagBALABALgBAcABBcgBANABANgBAOABAfABANgCAOACAIADAIgDAZADAJgDAKADAKoDAMADrALIAwDYAwDgAwDoAwD4AwCABACYBACiBAw3Ni45NC4yMDUuNDWoBACyBAwIABAAGAAgADAAOAK4BADABADIBADaBAIIAeAEAfAEAIgFAZgFAKAFAMAFAMkFAAAAAAAA8D_SBQkV82zYBQDgBQDwBQD6BQQIABAAkAYAmAYAuAYAwQYADQEQ2gYWChANDBUBXBAAGADgBgDyBgIIAIAHAYgHAKAHALoHDgFEPBgAIAAwADgAQADIBwDSBw0VbQE1CNoHBgkkNOAHAOoHAggA8Afkpt4J%26s%3D47489c44fa96b8b5c6c181d971acc48e080f3cdb&bridge=1.11.0&rblog=auc=178979263444022099;bm=0;sm=10284;cr=301589838;pl=1&vid_context=anoutstream;anbannerstream;anoverlayplayer]]></VerificationParameters>
+                        </Verification>
+                    </AdVerifications>
+                </Extension>
+            </Extensions>
+        </Wrapper>
+    </Ad>
+</VAST>
