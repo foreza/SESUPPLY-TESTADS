@@ -1,9 +1,6 @@
 var CURRENT_LAYER = 1;
 var WORK_TIME_MS = 2000;
+var script_uri = "https://jasonthechiu.com/SESUPPLY-TESTADS/js/script-layer-test-2.js";
+
 // simulate some work
-function doSomeWorkForIntervalThenLoad() {
-    setTimeout(function () {
-        console.log("Waited on layer 1 for, ", WORK_TIME_MS);
-    }, WORK_TIME_MS);
-  
-}
+doSomeWorkForIntervalThenLoad(2000, script_uri);
